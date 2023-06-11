@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+
+.blue-theme{
+    background-color: #dc4666 !important;
+    border-radius: 1px !important;
+}
+
+.genre-card{
+    display: inline-block;
+    margin: 14px 10px !important;
+    padding: 12px 0 !important;
+    text-transform: capitalize !important;
+    color: #fff!important;
+    font-size: 18px !important;
+    font-family: $font-family--sans-serif !important;
+    width: 20%;
+
+    @media screen and (max-width:$breakpoint-xsmall) {
+        width: 28%;
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../variables.scss';
+
+.footer{
+    background-color: #212121;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(255,255,255,.1);
+
+    p{
+        margin: 15px 0px;
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 400;
+
+        a{
+            margin-left: 4px;
+        }
+    }
+}
+
+.list-inline{
+    padding-left: 0;
+    list-style: none;
+
+    .list-inline-item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 0.5rem;
+        }
+
+        a{
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
