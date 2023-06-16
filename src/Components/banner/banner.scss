@@ -74,11 +74,12 @@
     }
 }
 
-.name {
+.name a {
+    display: block;
     margin: 0 0 1.4rem;
     font-size: 1.2rem;
     line-height: 1.1;
-    color: #fff;
+    color: #fff !important;
     letter-spacing: $letter-spacing;
     cursor: pointer;
   

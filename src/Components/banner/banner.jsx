@@ -5,6 +5,7 @@ import { AiFillStar } from "react-icons/ai";
 import 'swiper/css';
 import { Autoplay } from 'swiper';
 import './banner.scss';
+import { Link } from 'react-router-dom';
 
 function Banner(){
 
@@ -37,7 +38,7 @@ function Banner(){
                <div className="pane">
                 <div>
                     <h1 className="name">
-                        {movie.title}
+                        <Link to={"/movies/"+movie.id}>{movie.title}</Link>
                     </h1>
                     <div class="meta">
                         <div class="info">

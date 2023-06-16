@@ -1,0 +1,257 @@
+@import '../../../variables.scss';
+
+.trailer {
+    margin-top: 3rem;
+}
+
+.button--icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button{
+    padding: 0.9rem 1.3rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    border: none;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    background-color: #dc4666;
+    transition: all 0.2s;
+}
+
+.name{
+    margin: 0 0 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    color: #fff;
+    letter-spacing: $letter-spacing;
+    cursor: pointer;
+  
+    @media (min-width: $breakpoint-small) {
+      margin-bottom: 1.8rem;
+    }
+  
+    @media (min-width: $breakpoint-large) {
+        font-size: 27px;
+    }
+    &:focus {
+      outline: none;
+    }
+}
+
+.backdrop-images {
+
+    .items{
+
+        .item-backdrop {
+            padding: 0.4rem;
+        }
+    }
+    
+}
+
+.videos__status{
+
+    .items{
+
+        .item{
+            padding: 1rem;
+            margin-bottom: 2rem;
+
+            .image{
+              position: relative;
+
+              img{
+                width: 100%;
+                opacity: .8;
+              }
+
+              .icon{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                cursor: pointer;
+
+                svg{
+                    color: #fff;
+                    font-size: 50px;
+                }
+              }
+
+
+            }
+
+            .name {
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+                font-size: 16px;
+                letter-spacing: .4px;
+
+                @media (max-width: $breakpoint-xsmall){
+                    font-size: 14px;
+                }
+            }
+
+            .type {
+                font-size: 14px;
+                color: #abb7c4;
+                letter-spacing: .4px;
+
+                @media (max-width: $breakpoint-xsmall){
+                    font-size: 12px;
+                }
+            }
+
+            @media (max-width: $breakpoint-xsmall){
+                margin-bottom: 1rem;
+            }
+
+        }
+    }
+    
+}
+
+.listing-space {
+    margin: 40px 0;
+
+    .listing__head {
+        display: flex;
+        align-items: baseline;
+        color: #fff;
+        margin-bottom: 1.5rem;
+    
+        @media (min-width: 1200px){
+            margin-bottom: 2rem;
+        }
+    
+    }
+
+    .listing__title {
+        font-size: 1.4rem;
+        letter-spacing: .4px;
+    }
+
+    
+}
+
+.info__movies {
+    display: flex;
+    align-items: initial;
+}
+
+
+.left {
+    padding-right: 5rem;
+
+    @media (min-width: 1024px){
+        display: block;
+        width: 25%;
+        max-width: 400px;
+        padding-right: 3rem;
+    }
+
+    @media (max-width: $breakpoint-small){
+        padding-right: 0;
+    }
+
+    .poster {
+        position: relative;
+        height: 0;
+        padding-top: 150.27%;
+        overflow: hidden;
+        background-color: #dc4666;
+    
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+@media (min-width: 1024px){
+    .right {
+        flex: 1;
+    }
+}
+
+.overview {
+    max-width: 1000px;
+    margin-bottom: 3rem;
+    font-size: 17px;
+    color: #fafafa;
+    font-family: $font-family--sans-serif;
+
+    .title {
+        margin-bottom: 1rem;
+        font-size: 23px;
+        color: #fff;
+        letter-spacing: .4px;
+
+    }
+}
+
+.stats{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: $font-family--sans-serif;
+    color: #fafafa;
+
+    .nolist {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    li {
+        display: flex;
+        padding: 0.2rem 0;
+        width: 50%;
+
+        @media (max-width: $breakpoint-small){
+            width: 100%;
+        }
+
+        .label {
+            max-width: 90px;
+            margin-right: 1.5rem;
+            color: #fff;
+        }
+
+        .value {
+            flex: 2;
+        }
+
+        .comaa{
+            margin-right: 9px;
+        }
+    }
+}
+
+
+.MuiTabs-flexContainer{
+    justify-content: center;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fff !important;
+}
+
+.MuiTab-textColorPrimary{
+    color: #fff !important;
+    font-size: 17px !important;
+}
+
+.m-10{
+    margin: 10px 0;
+}
