@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FlixMovies/static/css/main.518f127d.css",
+    "main.js": "/FlixMovies/static/js/main.5d8ed7dd.js",
+    "static/js/787.458efe85.chunk.js": "/FlixMovies/static/js/787.458efe85.chunk.js",
+    "static/media/ElegantIcons.svg": "/FlixMovies/static/media/ElegantIcons.a3709f859357b50798d9.svg",
+    "static/media/ElegantIcons.woff": "/FlixMovies/static/media/ElegantIcons.941bf29b415d3a9b7099.woff",
+    "static/media/ElegantIcons.eot": "/FlixMovies/static/media/ElegantIcons.78ba4ad1289e5a66ca11.eot",
+    "static/media/ElegantIcons.ttf": "/FlixMovies/static/media/ElegantIcons.4555dd9ce623f8fd6d72.ttf",
+    "index.html": "/FlixMovies/index.html",
+    "main.518f127d.css.map": "/FlixMovies/static/css/main.518f127d.css.map",
+    "main.5d8ed7dd.js.map": "/FlixMovies/static/js/main.5d8ed7dd.js.map",
+    "787.458efe85.chunk.js.map": "/FlixMovies/static/js/787.458efe85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.518f127d.css",
+    "static/js/main.5d8ed7dd.js"
+  ]
+}
